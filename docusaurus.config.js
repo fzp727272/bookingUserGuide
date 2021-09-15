@@ -52,12 +52,17 @@ module.exports = {
     footer: {
       links: [
         {
-          title: "联系我们",
+          title: "联系人",
           items: [
             {
-              label: "Email Us",
-              href: "jason.ling@decathlon.com",
+              label: "JLING20",
+              href: "mailto:jason.ling@decathlon.com",
             },
+            {
+              label: "jason.ling@decathlon.com",
+              href: "mailto:jason.ling@decathlon.com",
+            },
+        
             // {
             //   label: "Twitter",
             //   href: "https://twitter.com/hashnode",
