@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://support.hashnode.com/blog</id>
+    <title>User Guide Blog</title>
+    <updated>2015-10-25T23:29:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://support.hashnode.com/blog"/>
+    <subtitle>User Guide Blog</subtitle>
+    <icon>https://support.hashnode.com/img/favicon.ico</icon>
+</feed>
