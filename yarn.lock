@@ -1107,7 +1107,7 @@
     "@docusaurus/types" "2.0.0-alpha.70"
     "@docusaurus/utils" "2.0.0-alpha.70"
     "@docusaurus/utils-validation" "2.0.0-alpha.70"
-    "@endiliey/static-site-generator-webpack-plugin" "^4.0.0"
+    "@endilieystatic-site-generator-webpack-plugin" "^4.0.0"
     "@svgr/webpack" "^5.4.0"
     babel-loader "^8.2.1"
     babel-plugin-dynamic-import-node "2.3.0"
@@ -1411,9 +1411,9 @@
     lodash.kebabcase "^4.1.1"
     resolve-pathname "^3.0.0"
 
-"@endiliey/static-site-generator-webpack-plugin@^4.0.0":
+"@endilieystatic-site-generator-webpack-plugin@^4.0.0":
   version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@endiliey/static-site-generator-webpack-plugin/-/static-site-generator-webpack-plugin-4.0.0.tgz#94bfe58fd83aeda355de797fcb5112adaca3a6b1"
+  resolved "https://registry.yarnpkg.com/@endilieystatic-site-generator-webpack-plugin/-static-site-generator-webpack-plugin-4.0.0.tgz#94bfe58fd83aeda355de797fcb5112adaca3a6b1"
   integrity sha512-3MBqYCs30qk1OBRC697NqhGouYbs71D1B8hrk/AFJC6GwF2QaJOQZtA1JYAaGSe650sZ8r5ppRTtCRXepDWlng==
   dependencies:
     bluebird "^3.7.1"
@@ -9120,7 +9120,7 @@ state-toggle@^1.0.0:
 
 static-extend@^0.1.1:
   version "0.1.2"
-  resolved "https://registry.yarnpkg.com/static-extend/-/static-extend-0.1.2.tgz#60809c39cbff55337226fd5e0b520f341f1fb5c6"
+  resolved "https://registry.yarnpkg.comstatic-extend/-static-extend-0.1.2.tgz#60809c39cbff55337226fd5e0b520f341f1fb5c6"
   integrity sha1-YICcOcv/VTNyJv1eC1IPNB8ftcY=
   dependencies:
     define-property "^0.2.5"

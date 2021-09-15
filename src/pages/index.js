@@ -7,114 +7,77 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Getting Started',
+    title: '活动管理',
     description: (
       <>
-        <li><a href = "docs/">Using Hashnode</a></li>
-        <li><a href = "docs/hashnode-glossary">Hashnode Glossary</a></li>
-        <li><a href = "docs/create-personal-blog">Create Personal Blog</a></li>
-        <li><a href = "docs/bug-reports-and-feature-request">Bug Reports and Feature Requests</a></li>
+        <li><a href="docs/event/event-flow">活动流程说明</a></li>
+        <li><a href="docs/event/event-create">创建活动</a></li>
+        <li><a href="docs/event/event-pay">付费活动</a></li>
+        <li><a href="docs/event/event-sign-in">活动签到</a></li>
+        <li><a href="docs/event/event-management">报名管理</a></li>
+      </>
+    ),
+  },
+  {
+    title: '课时票管理',
+    description: (
+      <>
+        <li><a href="/docs/ticket/ticket-flow">课时票管理流程</a></li>
+        <li><a href="/docs/ticket/ticket-create">新建课时票</a></li>
+        <li><a href="/docs/ticket/ticket-distribute">课时票分配</a></li>
+        <li><a href="/docs/ticket/ticket-use">课时票使用</a></li>
+      </>
+    ),
+  },
+  {
+    title: '课时包管理',
+    description: (
+      <>
 
-      </>
-    ),
-  },
-  {
-    title: 'Mapping to Custom Domain',
-    description: (
-      <>
-       <li><a href = "/docs/mapping-domain">Introduction</a></li>
-        <li><a href = "/docs/mapping-godaddy">Mapping From GoDaddy</a></li>
-        <li><a href = "/docs/mapping-cloudflare">Mapping From Cloudflare</a></li>
-        <li><a href = "/docs/mapping-namecheap">Mapping From Namecheap</a></li>
-      </>
-    ),
-  },
-  {
-    title: 'Writing and Editing',
-    description: (
-      <>
-    
-        <li><a href = "docs/write-an-article">Write an Article</a></li>
-        <li><a href = "docs/markdown-guidelines">Markdown Guidelines</a></li>
-        <li><a href = "docs/edit-article">Edit Published Article </a></li>
-        <li><a href = "docs/edit-drafts">Edit Drafts </a></li>
-      </>
-    ),
-  },
-  {
-    title: 'How To Guides',
-    description: (
-      <> 
-        <li><a href = "docs/custom-css">Custom CSS</a></li>
-        <li><a href = "docs/series">Series</a></li>
-        <li><a href = "docs/hashnode-sponsors">Hashnode Sponsors</a></li>
-        <li><a href = "docs/ambassador-program">Hashnode Ambassador</a></li>
-      </>
-    ),
-  },
-  {
-    title: 'Settings & Customization',
-    description: (
-      <>
-        <li><a href = "docs/account-settings">Update Profile Page</a></li>
-        <li><a href = "docs/analytics">Analytics</a></li>
-        <li><a href = "docs/general-settings">General Settings</a></li>
-        <li><a href = "docs/github-backup">Auto GitHub Backup</a></li>
-
-      </>
-    ),
-  },
-  {
-    title: 'Safety & Policies',
-    description: (
-      <>
-       <li><a href = "docs/community-code-of-conduct">Community Code of Conduct
-
-</a></li>
-        <li><a href = "docs/report-copyright-infringement">Report Copyright Infringement</a></li>
-        <li><a href = "docs/report-posts-and-users#report-posts">Report Posts</a></li>
-        <li><a href = "docs/report-posts-and-users#report-users">Report Users</a></li>
-      </>
-    ),
-  },
-  {
-    title: 'Frequently Asked Questions',
-    description: (
-      <>
-    
-        <li><a href = "docs/faqs#how-can-i-save-a-draft-on-hashnode">How can I save a draft on Hashnode?</a></li>
-        <li><a href = "docs/faqs#whats-an-impressum">What's an Impressum?</a></li>
-        <li><a href = "docs/faqs#which-embeds-are-supported-by-hashnode">Which embeds are supported by Hashnode?</a></li>
-        <li><a href = "docs/faqs#how-can-i-set-a-canonical-url">How can I set a canonical URL?</a></li>
-      
+        <li><a href="docs/ticket-pack/ticket-pack">什么是课时包</a></li>
+        <li><a href="docs/ticket-pack/ticket-pack-create">创建/编辑课时包</a></li>
+        <li><a href="docs/ticket-pack/ticket-pack-pay">付费课时包 </a></li>
+        <li><a href="docs/ticket-pack/ticket-pack-distribute">课时包分配 </a></li>
+        <li><a href="docs/ticket-pack/ticket-pack-refund">课时包退款/退回 </a></li>
       </>
     ),
   },
 ];
 
-function Feature({ title, description}) {
+function Feature({ title, description }) {
   return (
     <div className={clsx('col col--4', styles.feature)}>
       <h3>{title}</h3>
-      <p style={{listStyleType:'none'}}>{description}</p>
+      <p style={{ listStyleType: 'none' }}>{description}</p>
     </div>
   );
 }
 
+
 function Home() {
   const context = useDocusaurusContext();
-  const {siteConfig = {}} = context;
+  const { siteConfig = {} } = context;
   return (
     <Layout
-      >
-      <header className={clsx('hero', styles.heroBanner)}>
-        <div className="container">
-          <img className="homepage-img" src="https://cdn.hashnode.com/res/hashnode/image/upload/v1611857291933/3DcebSdEJ.png?auto=compress"/>
-          <h1 className="hero__title">How can we help?</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-        </div>
-      </header>
-      <main className="main-container">
+    >
+  
+      {/* <header className={clsx('hero', styles.heroBanner)}> */}
+        {/* <div className="container"> */}
+          <div className={styles.showContainer}>
+          <h1 className="hero__title" style={{fontSize:48,marginTop:48,textAlign:'center'}}>Booking后台使用指南</h1>
+          <div style={{width:80,height:4,background:'#007DBC',margin:'0 auto',borderRadius:5,marginTop:24}}></div>
+          {/* 
+            <p className="hero__subtitle" style={{fontSize:18}}>欢迎使用迪卡侬运动连活动管理后台，在我们的系统中您可以使用</p>
+          <img src="/img/banner.png"  style={{width:300}}></img>
+             */}
+
+            {/* <div className={styles.rightContainer}>
+         
+            </div> */}
+          </div>
+    
+      {/* </header> */}
+      <main className="main-container" style={{paddingTop:32}}>
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">

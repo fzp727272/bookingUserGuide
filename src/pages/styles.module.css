@@ -6,11 +6,21 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: 4rem 0 2rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  background-color: #E7F3F9;
+  /* background: url("/img/background.png") center center; */
+
 }
+
+.showContainer{
+width: 100%;
+padding: 16px 0;
+
+}
+
 
 @media screen and (max-width: 966px) {
   .heroBanner {
