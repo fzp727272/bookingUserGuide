@@ -19,26 +19,26 @@ const features = [
     ),
   },
   {
-    title: '课时票管理',
+    title: '次卡管理',
     description: (
       <>
-        <li><a href="/docs/ticket/ticket-flow">课时票管理流程</a></li>
-        <li><a href="/docs/ticket/ticket-create">新建课时票</a></li>
-        <li><a href="/docs/ticket/ticket-distribute">课时票分配</a></li>
-        <li><a href="/docs/ticket/ticket-use">课时票使用</a></li>
+        <li><a href="/docs/ticket/ticket-flow">次卡管理流程</a></li>
+        <li><a href="/docs/ticket/ticket-create">新建次卡</a></li>
+        <li><a href="/docs/ticket/ticket-distribute">次卡分配</a></li>
+        <li><a href="/docs/ticket/ticket-use">次卡使用</a></li>
       </>
     ),
   },
   {
-    title: '课时包管理',
+    title: '次卡包管理',
     description: (
       <>
 
-        <li><a href="docs/ticket-pack/ticket-pack">什么是课时包</a></li>
-        <li><a href="docs/ticket-pack/ticket-pack-create">创建/编辑课时包</a></li>
-        <li><a href="docs/ticket-pack/ticket-pack-pay">付费课时包 </a></li>
-        <li><a href="docs/ticket-pack/ticket-pack-distribute">课时包分配 </a></li>
-        <li><a href="docs/ticket-pack/ticket-pack-refund">课时包退款/退回 </a></li>
+        <li><a href="docs/ticket-pack/ticket-pack">什么是次卡包</a></li>
+        <li><a href="docs/ticket-pack/ticket-pack-create">创建/编辑次卡包</a></li>
+        <li><a href="docs/ticket-pack/ticket-pack-pay">付费次卡包 </a></li>
+        <li><a href="docs/ticket-pack/ticket-pack-distribute">次卡包分配 </a></li>
+        <li><a href="docs/ticket-pack/ticket-pack-refund">次卡包退款/退回 </a></li>
       </>
     ),
   },
