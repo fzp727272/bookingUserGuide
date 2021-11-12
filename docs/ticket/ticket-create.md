@@ -2,6 +2,17 @@
 id: ticket-create
 title: "新建次卡"
 ---
+
+<iframe 
+    height={332}
+    width={600}
+    src="/video/次卡创建&分配.mp4" 
+    allowTransparency={true}
+    frameborder={0}
+    allowfullscreen>
+</iframe>
+
+
 ### 1.点击“新建次卡”按钮直接跳转新建次卡页面，设置次卡的名称、使用范围等信息
 ### 2.点击列表上可用的数字，进入次卡用户列表，可查看拥有该次卡的所有用户
 <img src="/img/ticket/ticket-create_1.png" className="normalImg" />

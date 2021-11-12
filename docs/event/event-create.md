@@ -2,6 +2,15 @@
 id: event-create
 title: "创建活动"
 ---
+
+<iframe 
+    height={332}
+    width={600}
+    src="/video/活动创建教程.mp4" 
+    frameborder={0}
+    allowfullscreen>
+</iframe>
+
 ## 1.创建活动模板
 活动模板用来批量发布活动场次，用户可以先创建活动模板再通过模板发布活动场次。
 首先点击进入活动模板列表点击新建进入活动模板新建页面录入活动的基本信息和活动描述信息
