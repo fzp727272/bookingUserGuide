@@ -42,11 +42,24 @@ const features = [
       </>
     ),
   },
+  {
+    title: '数据报表',
+    description: (
+      <>
+
+        <li><a href="docs/report/report-city-income">城市活动收入查看</a></li>
+        <li><a href="docs/report/report-member">新会员招募和参与者购买统计</a></li>
+        <li><a href="docs/report/report-city-event">某个运动在城市的报名概况</a></li>
+        <li><a href="docs/report/report-city-contrast">运动在多城市的对比</a></li>
+
+      </>
+    ),
+  },
 ];
 
 function Feature({ title, description }) {
   return (
-    <div className={clsx('col col--4', styles.feature)}>
+    <div className={clsx('col col--3', styles.feature)}>
       <h3>{title}</h3>
       <p style={{ listStyleType: 'none' }}>{description}</p>
     </div>

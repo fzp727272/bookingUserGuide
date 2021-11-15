@@ -2,6 +2,15 @@
 id: event-flow
 title: "活动流程说明"
 ---
+
+<iframe 
+    width={600}
+    height={330}
+    src="/video/活动创建教程.mp4" 
+    frameborder={0}
+    allowfullscreen>
+</iframe>
+
 ## 1.活动创建流程
 <img src="/img/event/flow.png" className="img-size-fit"/>
 

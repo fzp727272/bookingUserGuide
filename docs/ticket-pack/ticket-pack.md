@@ -2,11 +2,11 @@
 id: ticket-pack
 title: "什么是次卡包"
 ---
+
 <iframe 
-    height={332}
-    width={600}
+   width={600}
+    height={330}
     src="/video/次卡包使用教程.mp4" 
-    allowTransparency={true}
     frameborder={0}
     allowfullscreen>
 </iframe>
