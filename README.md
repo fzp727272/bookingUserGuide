@@ -1,42 +1,41 @@
-# Hashnode Support 
+# Website
 
-Hashnode Support is one stop solution for all your doubts and questions about Hashnode. Each guide helps you understand Hashnode a little better. Feel free to [dive in](https://support.hashnode.com/) and clear all your doubts. 
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-## Installation
+### Installation
 
-```console
-yarn install
+```
+$ yarn
 ```
 
-## Local Development
+### Local Development
 
-```console
-yarn start
+```
+$ yarn start
 ```
 
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-## Build
+### Build
 
-```console
-yarn build
+```
+$ yarn build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-## Contributions 
+### Deployment
 
-We love your input! We want to make contributing to this support site as easy and transparent as possible, whether it's:
+Using SSH:
 
-- Reporting a bug
-- Submitting a fix
-- Proposing new features
-- Adding more guides. 
+```
+$ USE_SSH=true yarn deploy
+```
 
-Refer to [Contributing Guidelines](https://github.com/Hashnode/support/blob/main/CONTRIBUTING.md) for getting started with your contributions. 
+Not using SSH:
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
 
-
-
-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
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
